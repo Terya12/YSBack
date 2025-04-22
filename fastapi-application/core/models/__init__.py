@@ -4,7 +4,9 @@ __all__ = (
     "User",
     "Product",
     "Category",
-    "AccessToken"
+    "AccessToken",
+    "OrderItem",
+    "Order"
 )
 
 from .db_helper import db_helper
@@ -13,3 +15,5 @@ from .user import User
 from .product import Product
 from .category import Category
 from .access_token import AccessToken
+from .order import Order
+from .order_item import OrderItem
